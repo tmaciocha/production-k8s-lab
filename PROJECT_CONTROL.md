@@ -4,7 +4,7 @@ Production Kubernetes Lab
 Build a production-like Kuberbetes lab with CI/CD and observability (metrics + logs + alerting), including runbooks and incident simulations.
 
 **CURRENT PHASE**
-Phase 1 - Cluster ready
+Phase 1 - Completed
 
 **THIS WEEK (commit-level-tasks)**
 * [ ] Create kind cluster and verify kubectl access
@@ -14,6 +14,8 @@ Phase 1 - Cluster ready
 * None
 
 **DONE**
-* 
+- Local multi-node cluster created
+- Cluster deletion and recreation verified
+- Test nginx Deployment running
 
 
