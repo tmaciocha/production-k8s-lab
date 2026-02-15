@@ -41,6 +41,8 @@ Currently preparing Phase 2 (Application Deployment).
 
 `kube get nodes`
 
+`kubectl config get-contexts`pro
+
 
 ### Test Deployment
 
@@ -49,5 +51,11 @@ Currently preparing Phase 2 (Application Deployment).
 `kubectl expose deployment hello --port=80 --type=NodePort`
 
 `kubectl get svc`
+
+`kubectl port-forwarding svc/hello 8080:80`
+
+### Delete cluster
+
+`kind delete cluster --name prod-lab`
 
 A test nginx Deployment was created to verify cluster functionality.
